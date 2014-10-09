@@ -1,6 +1,6 @@
 buildscript {
     ext {
-        springBootVersion = '1.1.6.RELEASE'
+        springBootVersion = '1.1.7.RELEASE'
     }
     repositories {
         mavenCentral()
@@ -16,7 +16,7 @@ apply plugin: 'idea'
 apply plugin: 'spring-boot' 
 
 jar {
-    baseName = 'jug-boot'
+    baseName = 'boot-intro'
     version = '0.0.1-SNAPSHOT'
 }
 sourceCompatibility = 1.8
