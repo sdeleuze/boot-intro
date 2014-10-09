@@ -11,16 +11,16 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringApplicationConfiguration(classes = Application.class)
 @WebAppConfiguration
-// TODO: 4) Annotate class to mark integration test, with "server.port=0"
+// TODO: 5) Annotate class to mark integration test, with "server.port=0"
 public class ApplicationTests {
 
 
-	// TODO: 5) Autowire local.server.port
+	// TODO: 6) Autowire local.server.port
 
 	@Test
 	public void runAndTestHttpEndpoint() {
 
-		// TODO: 6) test "/" endpoint with an integration test
+		// TODO: 7) test "/" endpoint with an integration test
 	}
 
 }

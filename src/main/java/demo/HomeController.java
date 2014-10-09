@@ -4,5 +4,4 @@ package demo;
 public class HomeController {
 
 	// TODO: 3) Create a "Hello World!" endpoint
-	// TODO: 16) Secure that method!
 }
